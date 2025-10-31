@@ -24,11 +24,11 @@ A **centralized open-source portal** for campus life: lost & found items, studen
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React (or Next.js)
+- **Frontend**: html, css, javascript+React 
 - **Backend**: Node.js + Express (or Django REST)
 - **Database**: SQLite (development) → PostgreSQL (production)
 - **Authentication**: JWT or campus email verification
-- **Hosting**: GitHub + Vercel / Render
+- **Hosting**: GitHub 
 
 ---
 
