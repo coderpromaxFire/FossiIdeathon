@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CampusHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">CampusHub</div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="lostfound.html">Lost & Found</a>
+      <a href="resources.html">Resources</a>
+      <a href="alerts.html">Alerts</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Welcome to CampusHub</h1>
+      <p>Your central hub for lost & found items, campus resources, and emergency alerts.</p>
+    </section>
+
+    <section class="cards">
+      <div class="card" onclick="showAlert('Lost & Found Module coming soon!')">
+        <h2>Lost & Found</h2>
+        <p>Post, search, and claim items. Admin verified.</p>
+      </div>
+      <div class="card" onclick="showAlert('Campus Resources Directory coming soon!')">
+        <h2>Resources</h2>
+        <p>Find labs, clubs, study spaces, and contacts.</p>
+      </div>
+      <div class="card" onclick="showAlert('Alerts Board coming soon!')">
+        <h2>Alerts</h2>
+        <p>Get maintenance notices, schedule updates, and bus delays.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 CampusHub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
